@@ -1,4 +1,4 @@
-import { apiUrl, parseRequestUrl, rerender } from '../Sup-files/Util.js'
+import { parseRequestUrl, rerender } from '../Sup-files/Util.js'
 import axios from "../../../_snowpack/pkg/axios.js"
 import { getCartItems, setCartItems } from '../Sup-files/Lstorage.js';
 

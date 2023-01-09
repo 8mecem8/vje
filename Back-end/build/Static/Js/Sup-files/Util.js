@@ -2,9 +2,8 @@ import axios from "../../../_snowpack/pkg/axios.js";
 import { getCartItems } from "./Lstorage.js";
 
 
-export const apiUrl = document.location.href.startsWith('http://localhost')
-  ? 'http://localhost:5000'
-  : '';
+export const apiUrl = document.location.href.startsWith('http://localhost')? 'http://localhost:5000'
+  : window.location.href.includes('buyozon') ? window.location.href : '' ;
 
 
 
