@@ -1,0 +1,16 @@
+dist
+/dist
+node_modules
+/node_modules
+uploads/*.jpg
+uploads/*.png
+
+node_modules
+npm-debug.log
+.DS_Store
+
+
+.env
+.env.local
+.env.development.local
+
