@@ -3,7 +3,8 @@ import { getCartItems } from "./Lstorage.js";
 
 
 export const apiUrl = document.location.href.startsWith('http://localhost')? 'http://localhost:5000'
-  : window.location.href.includes('buyozon') ? `${window.location.hostname}/buyozon` : '' ;
+  : window.location.href.includes('buyozon') ? `${window.location.hostname}/buyozon` 
+  : window.location.pathname ? window.location.pathname.replaceAll('/', "") : '' ;
 
 
 
